@@ -810,7 +810,7 @@ public class UndergroundPass extends BasicQuestHelper
 			climbDownWell), rope2, bow, arrows, spade, plank, bucket, tinderbox, combatEquipment));
 		allSteps.add(new PanelDetails("Descending Deeper", Arrays.asList(navigateMaze, searchUnicornCage, useRailingOnBoulder)));
 		allSteps.add(new PanelDetails("Cold-blooded Killing", Arrays.asList(searchUnicornCageAgain, walkToKnights, killJerro, killHarry, killCarl, useBadgeJerroOnWell, openIbansDoor)));
-		allSteps.add(new PanelDetails("The Witch Kardia", Arrays.asList(talkToNiloof, pickUpWitchsCat, useCatOnDoor, searchWitchsChest)));
+		allSteps.add(new PanelDetails("The Witch Kardia", Arrays.asList(talkToNiloof, talkToKlank, pickUpWitchsCat, useCatOnDoor, searchWitchsChest)));
 		allSteps.add(new PanelDetails("Imbuing the Doll", Arrays.asList(killHolthion, killDoomion, killOthanian, searchDoomionsChest, returnToDwarfs, useBucketOnBrew, useBrewOnTomb, useTinderboxOnTomb, killKalrag, searchCage)));
 		allSteps.add(new PanelDetails("Entering the Temple", Arrays.asList(killDisciple, enterTemple, useDollOnWell)));
 		allSteps.add(new PanelDetails("Foggy Memories", Arrays.asList(talkToKoftikAfterTemple, talkToKingLathasAfterTemple)));
